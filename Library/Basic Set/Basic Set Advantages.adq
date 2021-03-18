@@ -3591,7 +3591,11 @@
 			"name": "Código de Honra (Teatro)",
 			"mental": true,
 			"base_points": -5,
+<<<<<<< HEAD
 			"reference": "BS186",
+=======
+			"reference": "B127, BS186",
+>>>>>>> 1d3e5be6434ecc9189181ef0bf8da0e4531de404
 			"categories": [
 				"Desvantagem"
 			]
