@@ -43,9 +43,9 @@
 			"weight": "0.1 lb",
 			"reference": "B276",
 			"categories": [
-				"MuniçãoTipo:Flecha",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Flecha"
 			]
 		},
 		{
@@ -60,9 +60,9 @@
 			"reference": "B277",
 			"notes": "Transforma o dano por perfuração em dano perfurante e cria um divisor de armadura de (2).",
 			"categories": [
-				"MuniçãoTipo:Flecha",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Flecha"
 			]
 		},
 		{
@@ -1343,7 +1343,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -1894,7 +1894,7 @@
 			"value": "10",
 			"weight": "2 lb",
 			"reference": "B289",
-			"notes": "Bandages for a  half-dozen wounds. Might be clean cloth, adhesive dressings, or spray-on \"Plastiskin\", depending on TL. Basic equipment for First Aid skill.",
+			"notes": "Bandagens para meia dúzia de ferimentos. Pode ser um pedaço de pano limpo, curativos adesivos ou “plastipele” aplicável por spray, dependendo do NT. Equipamento básico para a perícia Primeiros Socorros.",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -1945,7 +1945,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -1961,7 +1961,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -1975,7 +1975,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -1997,7 +1997,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -2013,7 +2013,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -2027,7 +2027,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -2065,7 +2065,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -2080,12 +2080,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -2102,7 +2102,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -2117,12 +2117,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -2132,7 +2132,7 @@
 					]
 				}
 			],
-			"notes": "Using Two-Handed Sword skill",
+			"notes": "Usando a perícia de Espada de Duas Mãos.",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -2155,7 +2155,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -2170,7 +2170,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -2216,7 +2216,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -2231,7 +2231,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -2832,9 +2832,9 @@
 			"value": "35",
 			"weight": "3 lb",
 			"reference": "B289",
-			"notes": "+2 to control horse, or +3 if using both hands",
+			"notes": "+2 para controlar o cavalo ou +3 se o cavaleiro estiver usando as duas mãos.",
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			]
 		},
 		{
@@ -2855,7 +2855,7 @@
 						"st": "thr"
 					},
 					"strength": "7",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -3069,9 +3069,9 @@
 			"weight": "0.05 lb",
 			"reference": "B276",
 			"categories": [
-				"MuniçãoTipo:Dardo",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Dardo"
 			]
 		},
 		{
@@ -3319,11 +3319,11 @@
 					"selection_type": "weapons_with_name",
 					"specialization": {
 						"compare": "is",
-						"qualifier": "Chute"
+						"qualifier": "Kick"
 					}
 				}
 			],
-			"notes": "Flexible; Concealable",
+			"notes": "Flexível; Ocultável",
 			"categories": [
 				"Calçados"
 			]
@@ -3419,7 +3419,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3435,7 +3435,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -3449,7 +3449,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -3471,7 +3471,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3487,7 +3487,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -3501,7 +3501,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -3821,7 +3821,7 @@
 			"value": "5",
 			"weight": "1 lb",
 			"reference": "B288",
-			"notes": "Lasts 12 hours",
+			"notes": "Fumacenta! Dura 12 horas.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -3966,7 +3966,7 @@
 						"base": "1d-3"
 					},
 					"strength": "3",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -3981,7 +3981,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -4044,7 +4044,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4060,7 +4060,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -4074,7 +4074,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -4096,7 +4096,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -4112,7 +4112,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -4126,7 +4126,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -4237,7 +4237,7 @@
 			"value": "20",
 			"weight": "4 lb",
 			"reference": "B288",
-			"notes": "Hammer, spikes, carabiners",
+			"notes": "Martelo, espigões, mosquetões.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -5131,7 +5131,7 @@
 			"value": "1",
 			"weight": "0.5 lb",
 			"reference": "B288",
-			"notes": "Supports 90 lbs.",
+			"notes": "Suporta 45 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -5146,7 +5146,7 @@
 			"value": "2",
 			"weight": "1 lb",
 			"reference": "B288",
-			"notes": "Supports 90 lbs.",
+			"notes": "Suporta 45 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -5168,11 +5168,11 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Primeiros Socorros"
+						"qualifier": "First Aid"
 					}
 				}
 			],
-			"notes": "A complete kit for treating serous injuries. Includes sterile bandages, sutures, and drugs appropriate for the TL. Counts as improvised gear (-5) for Surgery",
+			"notes": "Um kit completo para o tratamento de ferimentos graves. Inclui bandagens esterilizadas, suturas e remédios adequados NT. Em NT6+, inclui soro intravenoso, agulha e plasma. Bônus de +2 nos testes de Primeiros Socorros e pode ser usado como equipamento improvisado (-5) para Cirurgia.",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -5774,9 +5774,9 @@
 			"weight": "0.06 lb",
 			"reference": "B276",
 			"categories": [
-				"MuniçãoTipo:Virote",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Virote"
 			]
 		},
 		{
@@ -5798,7 +5798,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -5876,7 +5876,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -5891,7 +5891,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -5937,7 +5937,7 @@
 						"st": "thr"
 					},
 					"strength": "8",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -5952,7 +5952,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -6045,7 +6045,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -6070,7 +6070,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
@@ -6659,11 +6659,11 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "Primeiros Socorros"
+						"qualifier": "First Aid"
 					}
 				}
 			],
-			"notes": "A complete kit for treating wounds, with bandages, ointments, etc.",
+			"notes": "Um kit completo para o tratamento de ferimentos com bandagens, pomadas, etc. Bônus de +1 na perícia Primeiros Socorros.",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -6701,7 +6701,7 @@
 						"base": "+4"
 					},
 					"strength": "13†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -7124,7 +7124,7 @@
 						"armor_divisor": 5
 					},
 					"strength": "3",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -7135,7 +7135,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -3
 						},
 						{
@@ -7149,7 +7149,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
@@ -7615,7 +7615,7 @@
 						"base": "+3"
 					},
 					"strength": "11‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -7653,7 +7653,7 @@
 						"base": "+3"
 					},
 					"strength": "11†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1-3*",
 					"parry": "0U",
 					"block": "No",
@@ -7751,7 +7751,7 @@
 						"base": "+3"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -7837,7 +7837,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -7852,7 +7852,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -7874,7 +7874,7 @@
 						"base": "+2"
 					},
 					"strength": "12†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -7889,7 +7889,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -7913,12 +7913,12 @@
 			"version": 1,
 			"id": "8ef3ab82-c779-45a3-b207-64e54c301479",
 			"quantity": 1,
-			"description": "Equipamento Básico para Grupo",
+			"description": "Equipamento Básico de Grupo",
 			"tech_level": "0",
 			"value": "50",
 			"weight": "20 lb",
 			"reference": "B288",
-			"notes": "Basic equipment for Cooking and Survival skill for a group. Cook pot, rope, hatchet etc., for 3-8 campers.",
+			"notes": "Equipamento básico para as perícias Culinária e Sobrevivência de um grupo. Panela, corda, machadinha, etc. para 3 a 8 campistas.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -8036,7 +8036,7 @@
 						"base": "+5"
 					},
 					"strength": "13‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -8112,7 +8112,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1-3*",
 					"parry": "0U",
 					"block": "No",
@@ -8631,7 +8631,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9195,14 +9195,14 @@
 			"version": 1,
 			"id": "8adf841d-4c63-4769-9564-9fbb083b100d",
 			"quantity": 1,
-			"description": "Ferraduras, jogo completo",
+			"description": "Ferraduras",
 			"tech_level": "3",
 			"value": "50",
 			"weight": "4 lb",
 			"reference": "B289",
-			"notes": "Shod horses get +2 HT on any rolls for stamina on long rides",
+			"notes": "Cavalos com ferraduras recebem +2 HT em todos os testes para verificar seu vigor durante viagens longas. Conjunto com 4.",
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			]
 		},
 		{
@@ -9674,7 +9674,7 @@
 						"base": "+1"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9738,9 +9738,9 @@
 				}
 			],
 			"categories": [
-				"MuniçãoTipo:Azagaia",
 				"Arma de Combate Corpo a Corpo",
-				"Arma de Combate à Distância"
+				"Arma de Combate à Distância",
+				"MuniçãoTipo:Azagaia"
 			]
 		},
 		{
@@ -9762,7 +9762,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -9778,7 +9778,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -9792,7 +9792,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -9814,7 +9814,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9830,7 +9830,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -9844,7 +9844,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -9882,7 +9882,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -9897,7 +9897,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -9919,7 +9919,7 @@
 						"base": "+1"
 					},
 					"strength": "10†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -9934,7 +9934,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -10000,7 +10000,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1-4*",
 					"parry": "-2U",
 					"block": "No",
@@ -10054,7 +10054,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "4",
 					"parry": "No",
 					"block": "No",
@@ -10102,7 +10102,7 @@
 			"tech_level": "0",
 			"value": "1",
 			"reference": "B289",
-			"notes": "Lets you retrieve a dropped weapon on a DX roll. Each attempt requires a Ready maneuver. Can be cut: -6 to hit, DR 2, HP 2.",
+			"notes": "Permite recuperar uma arma que caiu no caso de um sucesso num teste de DX. Cada tentativa exige uma manobra Preparar. Pode ser cortada: penalidade de -6 nas tentativas de acertar, RD 2, PV 2.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
@@ -10141,7 +10141,7 @@
 						"base": "-2"
 					},
 					"strength": "6",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C,1",
 					"parry": "-1",
 					"block": "No",
@@ -10166,7 +10166,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
@@ -10182,7 +10182,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -10207,7 +10207,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
@@ -10789,9 +10789,9 @@
 			"weight": "0.06 lb",
 			"reference": "B276",
 			"categories": [
-				"MuniçãoTipo:Pelouro",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Pelouro"
 			]
 		},
 		{
@@ -10804,11 +10804,11 @@
 			"value": "0.1",
 			"weight": "0.05 lb",
 			"reference": "B276",
-			"notes": "Gives +1 damage, double range",
+			"notes": "Concede +1 ao dano e dobra a distância da arma.",
 			"categories": [
-				"MuniçãoTipo:Bala",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Bala"
 			]
 		},
 		{
@@ -11348,7 +11348,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -11364,7 +11364,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -11378,7 +11378,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -11400,7 +11400,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -11416,7 +11416,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -11430,7 +11430,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -11710,7 +11710,7 @@
 			"tech_level": "3",
 			"value": "50",
 			"reference": "B289",
-			"notes": "Basic equipment for Lockpicking skill",
+			"notes": "Equipamento básico para a perícia Arrombamento.",
 			"categories": [
 				"Equipamentos Defensores da Lei",
 				"Equipamentos de Espiões",
@@ -11736,7 +11736,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -11769,7 +11769,7 @@
 						"base": "+3"
 					},
 					"strength": "10†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2,3*",
 					"parry": "0",
 					"block": "No",
@@ -12240,7 +12240,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -12650,7 +12650,7 @@
 						"base": "+4"
 					},
 					"strength": "13‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -13168,7 +13168,7 @@
 						"base": "+3"
 					},
 					"strength": "12",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13217,7 +13217,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -13255,7 +13255,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -13309,7 +13309,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -13342,7 +13342,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -13368,7 +13368,7 @@
 					]
 				}
 			],
-			"notes": "Using the blunt end",
+			"notes": "Ponta romba",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -13392,7 +13392,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -13407,12 +13407,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -13429,7 +13429,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -13444,12 +13444,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -13459,7 +13459,7 @@
 					]
 				}
 			],
-			"notes": "Using Two-Handed Sword skill",
+			"notes": "Usando a perícia de Espada de Duas Mãos.",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -13584,7 +13584,7 @@
 						"base": "+1"
 					},
 					"strength": "7",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13746,7 +13746,7 @@
 			"value": "5",
 			"weight": "1 lb",
 			"reference": "B288",
-			"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+			"notes": "Equipamento mínimo de camping: penalidade de -2 nos testes de Sobrevivência sem ele. Inclui utensílios, isqueiro ou pederneira e aço, toalha, etc. (o que for apropriado ao NT).",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -13770,7 +13770,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -13796,7 +13796,7 @@
 					]
 				}
 			],
-			"notes": "May get stuck",
+			"notes": "Pode ficar presa",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -13811,7 +13811,7 @@
 			"value": "15",
 			"weight": "8 lb",
 			"reference": "B289",
-			"notes": "Improves digging speed",
+			"notes": "Aumenta a velocidade de escavação.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -14430,7 +14430,7 @@
 			"value": "220",
 			"weight": "120 lb",
 			"reference": "B289",
-			"notes": "Works rough soils",
+			"notes": "Para ser utilizado em terrenos acidentados.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -14445,7 +14445,7 @@
 			"value": "55",
 			"weight": "60 lb",
 			"reference": "B289",
-			"notes": "Pulled by oxen",
+			"notes": "Puxado por bois.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -14497,7 +14497,7 @@
 						"base": "+4"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -14535,7 +14535,7 @@
 						"base": "+4"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "2,3*",
 					"parry": "0U",
 					"block": "No",
@@ -15417,7 +15417,7 @@
 						"base": "+2"
 					},
 					"strength": "7†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "+2",
 					"block": "No",
@@ -15450,7 +15450,7 @@
 						"base": "+2"
 					},
 					"strength": "7†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2",
 					"parry": "+2",
 					"block": "No",
@@ -15499,7 +15499,7 @@
 						"base": "+2"
 					},
 					"strength": "9†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -15514,12 +15514,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -15536,7 +15536,7 @@
 						"base": "+1"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -15551,12 +15551,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -15566,7 +15566,7 @@
 					]
 				}
 			],
-			"notes": "Using Two-Handed Sword skill",
+			"notes": "Usando a perícia de Espada de Duas Mãos.",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -15650,7 +15650,7 @@
 						"base": "+1"
 					},
 					"strength": "9",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2",
 					"parry": "0F",
 					"block": "No",
@@ -15665,7 +15665,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -16739,7 +16739,7 @@
 			"value": "25",
 			"weight": "5 lb",
 			"reference": "B288",
-			"notes": "Supports 1,100 lbs.",
+			"notes": "Suporta 550 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -16754,7 +16754,7 @@
 			"value": "50",
 			"weight": "10 lb",
 			"reference": "B288",
-			"notes": "Supports 1,100 lbs.",
+			"notes": "Suporta 550 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -16769,7 +16769,7 @@
 			"value": "5",
 			"weight": "1.5 lb",
 			"reference": "B288",
-			"notes": "Supports 300 lbs.",
+			"notes": "Suporta 150 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -16784,7 +16784,7 @@
 			"value": "10",
 			"weight": "3 lb",
 			"reference": "B288",
-			"notes": "Supports 300 lbs.",
+			"notes": "Suporta 150 kg.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -16903,7 +16903,7 @@
 						"base": "-1"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -16918,7 +16918,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -16933,7 +16933,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -4
 						},
 						{
@@ -16955,7 +16955,7 @@
 						"base": "+1"
 					},
 					"strength": "8",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -16970,7 +16970,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -16985,7 +16985,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -4
 						},
 						{
@@ -17014,9 +17014,9 @@
 			"value": "150",
 			"weight": "15 lb",
 			"reference": "B289",
-			"notes": "Basic equipment for Riding skill.",
+			"notes": "Equipamento básico para a perícia Cavalgar.",
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			]
 		},
 		{
@@ -17043,7 +17043,7 @@
 				]
 			},
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			],
 			"open": true
 		},
@@ -17101,7 +17101,7 @@
 			"value": "25",
 			"weight": "0.5 lb",
 			"reference": "B284",
-			"notes": "Flexible; Concealable; Gives DR 1 to underside of foot",
+			"notes": "Flexível; Ocultável; Concedem RD 1 para as solas dos pés.",
 			"categories": [
 				"Calçados"
 			]
@@ -17124,7 +17124,7 @@
 						"st": "thr"
 					},
 					"strength": "7",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C",
 					"parry": "0",
 					"block": "No",
@@ -17168,7 +17168,7 @@
 			"value": "150",
 			"weight": "3 lb",
 			"reference": "B289",
-			"notes": "A lumberjack's tool, not a carpentry saw",
+			"notes": "A ferramenta dos lenhadores, não uma serra de carpintaria.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -17467,7 +17467,7 @@
 						"base": "+2"
 					},
 					"strength": "11‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -17504,7 +17504,7 @@
 						"st": "sw"
 					},
 					"strength": "11‡",
-					"usage": "Ponta",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -17535,7 +17535,7 @@
 					]
 				}
 			],
-			"notes": "May get stuck in 2nd mode",
+			"notes": "Pode ficar presa se dano por perf",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -17651,7 +17651,7 @@
 					"location": "feet"
 				}
 			],
-			"notes": "Flexible; Concealable",
+			"notes": "Flexíveis; Ocultáveis",
 			"categories": [
 				"Calçados"
 			]
@@ -18234,7 +18234,7 @@
 						"st": "sw"
 					},
 					"strength": "6",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -18264,7 +18264,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -4
 						},
 						{
@@ -18280,7 +18280,7 @@
 						"st": "thr"
 					},
 					"strength": "6",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -18310,7 +18310,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -4
 						},
 						{
@@ -18342,7 +18342,7 @@
 						"st": "sw"
 					},
 					"strength": "8",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -18357,7 +18357,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -18403,7 +18403,7 @@
 						"st": "thr"
 					},
 					"strength": "8",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -18418,7 +18418,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -2
 						},
 						{
@@ -18488,7 +18488,7 @@
 			"value": "10",
 			"weight": "0.5 lb",
 			"reference": "B289",
-			"notes": "Holds 12 arrows or bolts",
+			"notes": "Espaço para 12 flechas ou virotes.",
 			"categories": [
 				"Acessórios para Armas e de Combate"
 			],
@@ -18504,7 +18504,7 @@
 			"value": "12",
 			"weight": "6 lb",
 			"reference": "B289",
-			"notes": "Speeds up digging",
+			"notes": "Acelera as escavações.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -18677,9 +18677,9 @@
 			"weight": "0.05 lb",
 			"reference": "B276",
 			"categories": [
-				"MuniçãoTipo:Bala",
+				"Arma de Combate à Distância",
 				"Munição",
-				"Arma de Combate à Distância"
+				"MuniçãoTipo:Bala"
 			]
 		},
 		{
@@ -18836,7 +18836,7 @@
 						"base": "-3"
 					},
 					"strength": "5",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "C,1",
 					"parry": "-1",
 					"block": "No",
@@ -18861,7 +18861,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
@@ -18878,7 +18878,7 @@
 						"base": "-1"
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -18903,7 +18903,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
@@ -18963,7 +18963,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -19176,7 +19176,7 @@
 						"base": "+1"
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0F",
 					"block": "No",
@@ -19206,7 +19206,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -4
 						},
 						{
@@ -20130,7 +20130,7 @@
 						"base": "+2"
 					},
 					"strength": "9",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1*",
 					"parry": "0",
 					"block": "No",
@@ -20163,7 +20163,7 @@
 						"base": "+3"
 					},
 					"strength": "9†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1,2*",
 					"parry": "0",
 					"block": "No",
@@ -20241,7 +20241,7 @@
 			"value": "100",
 			"weight": "40 lb",
 			"reference": "B289",
-			"notes": "Produces yarn six times as fast.",
+			"notes": "Aumenta em seis vezes a velocidade de produção de fios.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -20253,11 +20253,11 @@
 			"quantity": 1,
 			"description": "Esporas",
 			"tech_level": "2",
-			"value": "20",
+			"value": "25",
 			"reference": "B289",
-			"notes": "+1 to control a mount.",
+			"notes": "Bônus de +1 para controlar a montaria.",
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			]
 		},
 		{
@@ -20422,9 +20422,9 @@
 			"value": "125",
 			"weight": "20 lb",
 			"reference": "B289",
-			"notes": "Make it easy to mount a horse and give +1 to control mount. Required to use Lance skill. With ordinary saddle",
+			"notes": "Facilita montar um cavalo e concede um bônus de +1 para controlar o animal. Obrigatório para usar a perícia Lança de Justa. Com sela comum.",
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			]
 		},
 		{
@@ -20542,7 +20542,7 @@
 			"value": "300",
 			"weight": "15 lb",
 			"reference": "B289",
-			"notes": "Includes scalpels, forceps, etc. Basic equipment für Surgery skill.",
+			"notes": "Inclui bisturis, fórceps, etc. Equipamento básico para a perícia Cirurgia.",
 			"categories": [
 				"Equipamento Médico"
 			]
@@ -20915,7 +20915,7 @@
 			"value": "50",
 			"weight": "5 lb",
 			"reference": "B288",
-			"notes": "Includes ropes; no poles needed",
+			"notes": "Inclui cordas; não precisa de varas",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -20930,7 +20930,7 @@
 			"value": "80",
 			"weight": "12 lb",
 			"reference": "B288",
-			"notes": "Includes ropes; requires one 6' pole",
+			"notes": "Inclui cordas; precisa de uma vara de 2 m.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -20945,7 +20945,7 @@
 			"value": "150",
 			"weight": "30 lb",
 			"reference": "B288",
-			"notes": "Includes ropes; requires two 6' poles",
+			"notes": "Inclui cordas; precisa de duas varas de 2 m.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -20960,7 +20960,7 @@
 			"value": "300",
 			"weight": "100 lb",
 			"reference": "B288",
-			"notes": "Includes ropes; requires 12 6' poles, 4 10' poles",
+			"notes": "Inclui cordas; precisa de 12 varas de 2 m e 4 varas de 3 m.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -21013,7 +21013,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0U",
 					"block": "No",
@@ -21089,7 +21089,7 @@
 						"base": "+1"
 					},
 					"strength": "11",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0U",
 					"block": "No",
@@ -21100,7 +21100,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -21119,7 +21119,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -21140,7 +21140,7 @@
 						"base": "+2"
 					},
 					"strength": "11",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0U",
 					"block": "No",
@@ -21151,7 +21151,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -21170,7 +21170,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -21207,7 +21207,7 @@
 						"base": "+2"
 					},
 					"strength": "10†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -21222,12 +21222,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -21244,7 +21244,7 @@
 						"base": "+3"
 					},
 					"strength": "10†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -21259,12 +21259,12 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
 							"type": "skill",
-							"name": "Espada de Energia",
+							"name": "Espadas de Energia",
 							"modifier": -4
 						},
 						{
@@ -21274,7 +21274,7 @@
 					]
 				}
 			],
-			"notes": "Using Two-Handed Sword skill",
+			"notes": "Usando a perícia de Espada de Duas Mãos.",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -21298,7 +21298,7 @@
 						"base": "+1"
 					},
 					"strength": "10",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -21314,7 +21314,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -21328,7 +21328,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -21350,7 +21350,7 @@
 						"base": "+2"
 					},
 					"strength": "10",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "1",
 					"parry": "0",
 					"block": "No",
@@ -21366,7 +21366,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga"
+							"name": "Espadas de Lâmina Larga"
 						},
 						{
 							"type": "skill",
@@ -21380,7 +21380,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -2
 						},
 						{
@@ -21418,7 +21418,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2",
 					"parry": "0",
 					"block": "No",
@@ -21433,7 +21433,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -21455,7 +21455,7 @@
 						"base": "+3"
 					},
 					"strength": "12†",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "2",
 					"parry": "0",
 					"block": "No",
@@ -21470,7 +21470,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Larga",
+							"name": "Espadas de Lâmina Larga",
 							"modifier": -4
 						},
 						{
@@ -21499,7 +21499,7 @@
 			"value": "3",
 			"weight": "1 lb",
 			"reference": "B288",
-			"notes": "Burns for 1 hour",
+			"notes": "Ilumina durante 1 hora.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -21529,7 +21529,7 @@
 			"value": "2",
 			"weight": "0.5 lb",
 			"reference": "B288",
-			"notes": "One meal",
+			"notes": "Uma refeição.",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
 			]
@@ -21958,9 +21958,9 @@
 			"value": "250",
 			"weight": "35 lb",
 			"reference": "B289",
-			"notes": "+1 to Riding skill to stay seated, 50% chance user will stay seated even if unconscious. With stirrups",
+			"notes": "Bônus de +1 sobre a perícia Cavalgar para permanecer sentado, 50% de chance de o cavaleiro permanecer sentado mesmo em caso de perda de consciência. Com estribos.",
 			"categories": [
-				"Armaduras para Cavalos"
+				"Equipamento de Equitação"
 			]
 		},
 		{
@@ -21982,7 +21982,7 @@
 						"base": "+3"
 					},
 					"strength": "12‡",
-					"usage": "Balanço",
+					"usage": "GeB",
 					"reach": "1,2*",
 					"parry": "0U",
 					"block": "No",
@@ -22013,7 +22013,7 @@
 					]
 				}
 			],
-			"notes": "May get stuck",
+			"notes": "Pode ficar preso",
 			"categories": [
 				"Arma de Combate Corpo a Corpo"
 			]
@@ -22031,6 +22031,21 @@
 			"notes": "Bottle of 50; Purifies 1 quart each",
 			"categories": [
 				"Equipamentos de Camping e Sobrevivência"
+			]
+		},
+		{
+			"type": "equipment",
+			"version": 1,
+			"id": "cde5a6f6-3269-4936-9e65-4a838131319e",
+			"quantity": 1,
+			"description": "Tablete de Cera",
+			"tech_level": "1",
+			"value": "10",
+			"weight": "2 lb",
+			"reference": "B289",
+			"notes": "Para escrever; pode ser apagado.",
+			"categories": [
+				"Equipamentos de Comunicação e Informação"
 			]
 		},
 		{
@@ -22180,7 +22195,7 @@
 					}
 				]
 			},
-			"notes": "Divide effective weight of load by 5a",
+			"notes": "Suporta 175 kg. Devida o peso efetivo da carga por 5.",
 			"categories": [
 				"Ferramentas"
 			],
@@ -22196,7 +22211,7 @@
 			"value": "5",
 			"weight": "1 lb",
 			"reference": "B289",
-			"notes": "For sharpening tools and wapons",
+			"notes": "Serve para afiar ferramentas e armas.",
 			"categories": [
 				"Ferramentas"
 			]
@@ -22591,7 +22606,7 @@
 						"armor_divisor": 0.5
 					},
 					"strength": "5",
-					"usage": "Ponta",
+					"usage": "GdP",
 					"reach": "C",
 					"parry": "-1",
 					"block": "No",
@@ -22616,7 +22631,7 @@
 						},
 						{
 							"type": "skill",
-							"name": "Espada Curta",
+							"name": "Espadas Curtas",
 							"modifier": -3
 						},
 						{
