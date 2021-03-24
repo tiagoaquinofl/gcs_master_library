@@ -2510,7 +2510,7 @@
 					"usage": "Soco",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -2538,8 +2538,8 @@
 					},
 					"usage": "Chute",
 					"reach": "C,1",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -3793,7 +3793,7 @@
 					"attribute": "fright_check"
 				}
 			],
-			"notes": "O personagem nunca fica “paralisado” em uma situação de surpresa e recebe um bônus de +6 em todos os testes de IQ para voltar a si ou se recuperar de uma situação de surpresa ou “atordoamento” mental. O grupo do jogador recebe um bônus de +1 nos testes de iniciativa para evitar ataques surpresa — +2 se o personagem for o líder.",
+			"notes": "O personagem nunca fica “paralisado” em uma situação de surpresa; +6 em todos os testes de IQ para voltar a si ou se recuperar de uma situação de surpresa ou “atordoamento” mental.  Seu grupo recebe +1 nos testes de iniciativa (+2 se você for o líder)",
 			"categories": [
 				"Vantagem"
 			]
@@ -4591,7 +4591,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -4712,7 +4712,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -8254,8 +8254,8 @@
 					},
 					"usage": "Mordida",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -9973,10 +9973,10 @@
 						"st": "thr",
 						"modifier_per_die": 1
 					},
-					"usage": "Escoicear",
+					"usage": "Coice",
 					"reach": "C,1",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -10227,7 +10227,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -15756,7 +15756,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -16037,6 +16037,7 @@
 			"levels": "0",
 			"base_points": -1,
 			"reference": "B164",
+			"notes": "Se o personagem gosta de alguma coisa, ele deve procurá-la sempre que possível.",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -16070,10 +16071,10 @@
 						"type": "perf",
 						"base": "1d"
 					},
-					"usage": "Stab",
+					"usage": "Estocada",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -16103,10 +16104,10 @@
 						"base": "-1",
 						"modifier_per_die": 1
 					},
-					"usage": "Slash",
+					"usage": "Talho",
 					"reach": "C,1",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -16133,10 +16134,10 @@
 						"base": "-1",
 						"modifier_per_die": 1
 					},
-					"usage": "Stab",
+					"usage": "Estocada",
 					"reach": "C,1",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -21043,7 +21044,7 @@
 					},
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -23890,6 +23891,7 @@
 			"physical": true,
 			"base_points": -1,
 			"reference": "B165",
+			"notes": "Imune à sedução",
 			"categories": [
 				"Peculiaridade"
 			]
@@ -24117,10 +24119,10 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Bicar",
+					"usage": "Bicada",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -24165,10 +24167,10 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Retalhar",
+					"usage": "Talho",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -24195,8 +24197,8 @@
 					},
 					"usage": "Chute",
 					"reach": "C,1",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -24238,8 +24240,8 @@
 					},
 					"usage": "Mordida",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "skill",
@@ -24314,8 +24316,8 @@
 					},
 					"usage": "GdP",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX",
@@ -25814,6 +25816,7 @@
 			"base_points": -15,
 			"cr": 12,
 			"reference": "B132",
+			"notes": "Em qualquer situação de tensão, é necessário fazer um teste de autocontrole (não mais que um teste/hora [tempo de jogo]). No caso de um fracasso, outra personalidade emerge e  e comporta de acordo com suas peculiaridades e desvantagens mentais.",
 			"categories": [
 				"Desvantagem"
 			]
@@ -28628,10 +28631,10 @@
 						"st": "thr",
 						"base": "-1"
 					},
-					"usage": "Retalhar",
+					"usage": "Talho",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -28660,7 +28663,7 @@
 					"usage": "GdP",
 					"reach": "C",
 					"parry": "0",
-					"block": "No",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
@@ -31311,8 +31314,8 @@
 					},
 					"usage": "Mordida",
 					"reach": "C",
-					"parry": "No",
-					"block": "No",
+					"parry": "Não",
+					"block": "Não",
 					"defaults": [
 						{
 							"type": "DX"
