@@ -11689,7 +11689,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				}
 			],
@@ -11945,7 +11945,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				}
 			],
@@ -12202,7 +12202,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				}
 			],
@@ -12645,7 +12645,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				}
 			],
@@ -12890,7 +12890,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				},
 				{
@@ -13157,7 +13157,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				}
 			],
@@ -13403,7 +13403,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				},
 				{
@@ -13682,7 +13682,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				},
 				{
@@ -13961,7 +13961,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				},
 				{
@@ -14372,7 +14372,7 @@
 					"name": "Incendiário",
 					"reference": "B108",
 					"cost_type": "percentage",
-					"cost": -10,
+					"cost": 10,
 					"affects": "total"
 				}
 			],
@@ -22368,7 +22368,7 @@
 					"version": 1,
 					"id": "cebafd90-ce76-48e7-8a52-2887dde3681c",
 					"disabled": true,
-					"name": "Origem Nociva",
+					"name": "Ruína",
 					"reference": "H18",
 					"cost_type": "percentage",
 					"cost": -50,
@@ -22380,7 +22380,7 @@
 					"version": 1,
 					"id": "c7e1964f-1438-43ca-a764-f7086ee12f18",
 					"disabled": true,
-					"name": "Origem Nociva",
+					"name": "Ruína",
 					"reference": "H18",
 					"cost_type": "percentage",
 					"cost": -30,
@@ -22392,7 +22392,7 @@
 					"version": 1,
 					"id": "fb57ae78-df55-492a-8581-efdc4983e02f",
 					"disabled": true,
-					"name": "Origem Nociva",
+					"name": "Ruína",
 					"reference": "H18",
 					"cost_type": "percentage",
 					"cost": -10,
