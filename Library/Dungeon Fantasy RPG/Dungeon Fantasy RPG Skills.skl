@@ -172,7 +172,7 @@
 			"type": "skill",
 			"version": 1,
 			"id": "43d4737c-7672-4b3c-b94b-5307a484dd10",
-			"name": "Armory",
+			"name": "Armoury",
 			"reference": "DFA73",
 			"specialization": "Body Armor",
 			"difficulty": "IQ/A",
@@ -198,7 +198,7 @@
 			"type": "skill",
 			"version": 1,
 			"id": "d8d59a3a-b6d7-46b2-ae84-75e8d7b0c159",
-			"name": "Armory",
+			"name": "Armoury",
 			"reference": "DFA73",
 			"specialization": "Melee Weapons",
 			"difficulty": "IQ/A",
@@ -224,7 +224,7 @@
 			"type": "skill",
 			"version": 1,
 			"id": "b48f5b00-e09d-4c8d-9791-4a7c06958b38",
-			"name": "Armory",
+			"name": "Armoury",
 			"reference": "DFA73",
 			"specialization": "Missile Weapons",
 			"difficulty": "IQ/A",
@@ -3694,64 +3694,12 @@
 				"all": true,
 				"prereqs": [
 					{
-						"type": "prereq_list",
-						"all": true,
-						"when_tl": {
-							"compare": "at_least",
-							"qualifier": 8
-						},
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "Computer Operation"
-								}
-							}
-						]
-					},
-					{
-						"type": "prereq_list",
-						"all": false,
-						"prereqs": [
-							{
-								"type": "advantage_prereq",
-								"has": true,
-								"name": {
-									"compare": "starts_with",
-									"qualifier": "Language"
-								},
-								"notes": {
-									"compare": "contains",
-									"qualifier": "Written (Native"
-								}
-							},
-							{
-								"type": "advantage_prereq",
-								"has": true,
-								"name": {
-									"compare": "starts_with",
-									"qualifier": "Language"
-								},
-								"notes": {
-									"compare": "contains",
-									"qualifier": "Written (Accented)"
-								}
-							},
-							{
-								"type": "advantage_prereq",
-								"has": true,
-								"name": {
-									"compare": "starts_with",
-									"qualifier": "Language"
-								},
-								"notes": {
-									"compare": "contains",
-									"qualifier": "Written (Broken)"
-								}
-							}
-						]
+						"type": "advantage_prereq",
+						"has": false,
+						"name": {
+							"compare": "is",
+							"qualifier": "Illiteracy"
+						}
 					}
 				]
 			},
