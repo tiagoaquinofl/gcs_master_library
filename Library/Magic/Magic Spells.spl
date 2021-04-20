@@ -405,7 +405,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "42ed6450-c689-4d79-a711-989de22d0a5a",
-			"name": "Afeta Espíritos",
+			"name": "Afetar Espíritos",
 			"reference": "M151",
 			"difficulty": "IQ/H",
 			"college": "Necromancia",
@@ -829,8 +829,8 @@
 						"has": true,
 						"sub_type": "name",
 						"qualifier": {
-							"compare": "starts_with",
-							"qualifier": "aguçar"
+							"compare": "contains",
+							"qualifier": "aguçad"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -868,7 +868,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "alterar feição"
+							"qualifier": "alterar feições"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -999,7 +999,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "c4a5afed-7a9c-4990-9921-7ed98bec3c37",
-			"name": "Alterar Feição",
+			"name": "Alterar Feições",
 			"reference": "M41",
 			"difficulty": "IQ/H",
 			"college": "Controle do Corpo",
@@ -1270,7 +1270,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "b5cfd47c-4377-4122-9855-e676556109e1",
-			"name": "Controle de Animais (@Animal@)",
+			"name": "Controle de Animal (@Animal@)",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -1291,7 +1291,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -1308,7 +1308,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "bf144f10-ac1f-482a-bde5-c72c5a7397c2",
-			"name": "Controle de Animais (Pássaros)",
+			"name": "Controle de Animal (Ave)",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -1329,7 +1329,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -1346,7 +1346,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "0af35164-52a0-4543-bdf4-3f6966e90c99",
-			"name": "Controle de Animais (Peixes)",
+			"name": "Controle de Animal (Peixe)",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -1367,7 +1367,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -1384,7 +1384,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "02058290-74a7-4333-905a-a7b3fdfa14d9",
-			"name": "Controle de Animais (Mamíferos)",
+			"name": "Controle de Animal (Mamífero)",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -1405,7 +1405,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -1422,7 +1422,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "f910f58a-ecd6-45a0-b6ff-e70be005739f",
-			"name": "Controle de Animais (Répteis)",
+			"name": "Controle de Animal (Réptil)",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -1443,7 +1443,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -1460,7 +1460,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "7f74af54-a730-4014-869b-383805d3edb3",
-			"name": "Controle de Animais (Vermes)",
+			"name": "Controle de Animal (Animal Daninho)",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -1481,7 +1481,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -1573,11 +1573,11 @@
 			"name": "Animar Objeto",
 			"reference": "M117",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Especial",
-			"casting_cost": "1/2,5 kgs",
+			"casting_cost": "1/2,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "3 seg",
 			"duration": "1 min",
@@ -1615,7 +1615,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -1639,7 +1639,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -2129,7 +2129,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -2328,7 +2328,7 @@
 			"name": "Despertar Espírito do Ofício",
 			"reference": "M115",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar ou Necromancia",
+			"college": "Quebrar e Consertar ou Necromancia",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -2368,7 +2368,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar",
+				"Quebrar e Consertar",
 				"Necromancia"
 			]
 		},
@@ -2648,7 +2648,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ea1e6591-a859-46c8-a52b-becf16abb418",
-			"name": "Conexão com Animais",
+			"name": "Conexão com Animal",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -2668,7 +2668,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "convocar animais"
+							"qualifier": "convocar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -2773,7 +2773,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "convocar animais"
+									"qualifier": "convocar animal"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -2805,7 +2805,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "a1c80754-75c9-4b25-8b7c-0085cc406b8d",
-			"name": "Acalmar Animais",
+			"name": "Acalmar Animal",
 			"reference": "M29",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -2882,7 +2882,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "convocar animais"
+							"qualifier": "convocar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -2899,7 +2899,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "50b5424b-a998-4867-8615-06533f4aefc1",
-			"name": "Convocar Animais",
+			"name": "Convocar Animal",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -2919,7 +2919,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -2936,7 +2936,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "fb1265fd-5a62-4b45-a0fc-c7d7e97721d5",
-			"name": "Agitar Animais",
+			"name": "Agitar Animal",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -3206,7 +3206,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "1ba7e767-fa26-4af7-ac11-733ee34ac903",
-			"name": "Benção",
+			"name": "Bênção",
 			"reference": "M129",
 			"difficulty": "IQ/H",
 			"college": "Metamágicas",
@@ -5240,7 +5240,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "aguçar visão"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -5560,7 +5560,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "6b046c73-7c35-41d3-b31f-ded87f067346",
-			"name": "Apanhar Projéteis",
+			"name": "Apanhar Projétil",
 			"reference": "M168",
 			"difficulty": "IQ/H",
 			"college": "Proteção e Aviso",
@@ -5949,7 +5949,7 @@
 			"name": "Limpar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "2",
@@ -5976,7 +5976,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -6465,7 +6465,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "afugentar espírito"
+							"qualifier": "espantar espírito"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -7142,10 +7142,10 @@
 			"name": "Contrair Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "3 seg",
 			"duration": "1 h",
@@ -7183,7 +7183,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -7207,7 +7207,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -7938,7 +7938,7 @@
 			"name": "Copiar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "Varia",
@@ -7995,7 +7995,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -8809,7 +8809,7 @@
 			"college": "Tecnológica ou Energia",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "2 x NT x kgs",
+			"casting_cost": "2 x NT x kg",
 			"maintenance_cost": "-",
 			"casting_time": "30 seg",
 			"duration": "Permanente",
@@ -9054,7 +9054,7 @@
 			"college": "Ilusão e Criação",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "2/2,5 kgs",
+			"casting_cost": "2/2,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg/custo",
 			"duration": "Enquanto tocando alguém",
@@ -9588,7 +9588,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aliviar doença"
+							"qualifier": "aliviar enjoo"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -9859,7 +9859,7 @@
 			"college": "Encantamento de Armadura",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "250/0,5kg#",
+			"casting_cost": "250/0,5 kg#",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -9909,7 +9909,7 @@
 			"college": "Encantamento",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "1000/0,5kg#",
+			"casting_cost": "1000/0,5 kg#",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -11017,7 +11017,7 @@
 			"name": "Desintegrar",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1-4",
@@ -11121,7 +11121,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -11146,7 +11146,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -12992,7 +12992,7 @@
 			"college": "Ilusão e Criação",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "3/2,5 kgs",
+			"casting_cost": "3/2,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg/custo",
 			"duration": "Enquanto tocando alguém",
@@ -13039,7 +13039,7 @@
 			"name": "Tingir",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "Varia",
@@ -13079,7 +13079,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -13930,10 +13930,10 @@
 			"name": "Aumentar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "3 seg",
 			"duration": "1 h",
@@ -13947,7 +13947,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "ampliar objeto"
+							"qualifier": "alongar objeto"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -13957,7 +13957,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -14302,7 +14302,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "afugentar espírito"
+							"qualifier": "espantar espírito"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -14639,7 +14639,7 @@
 			"college": "Tecnológica ou Energia",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg de combustível",
+			"casting_cost": "1/0,5 kg de combustível",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
 			"duration": "Permanente",
@@ -15006,7 +15006,7 @@
 			"name": "Explodir",
 			"reference": "M118",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2-6",
@@ -15071,7 +15071,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -15096,7 +15096,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -15222,13 +15222,13 @@
 			"type": "spell",
 			"version": 1,
 			"id": "89e7cc65-8f3c-4fb3-93c5-125e7199810d",
-			"name": "Ampliar Objeto",
+			"name": "Alongar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "3 seg",
 			"duration": "1 h",
@@ -15266,7 +15266,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -15290,7 +15290,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -15913,7 +15913,7 @@
 			"name": "Atar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -15940,7 +15940,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -16119,7 +16119,7 @@
 			"name": "Detectar Pontos Fracos",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Informação",
 			"casting_cost": "Varia",
@@ -16185,14 +16185,14 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
 			"type": "spell",
 			"version": 1,
 			"id": "0bd49478-4425-4d6b-b432-ac9d9c7530ad",
-			"name": "Nuvem de Chamas",
+			"name": "Nuvem de Fogo",
 			"reference": "M75",
 			"difficulty": "IQ/H",
 			"college": "Fogo",
@@ -16206,13 +16206,8 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-<<<<<<< HEAD
 						"type": "ponto de qmd/ponto",
-						"base": "+1"
-=======
-						"type": "point burn/point",
 						"base": "1"
->>>>>>> 9d7cd4e44d03dc080d377b53718deb4db7f6d00f
 					},
 					"usage": "Área",
 					"reach": "Especial",
@@ -18047,7 +18042,7 @@
 			"college": "Encantamento",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "250/0,5kg #",
+			"casting_cost": "250/0,5 kg #",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -18570,7 +18565,7 @@
 			"college": "Encantamento",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "150/0,5kg",
+			"casting_cost": "150/0,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -19072,7 +19067,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "cadef8ee-9ef5-4b8f-9e86-b9fc63caf052",
-			"name": "Voz Superior",
+			"name": "Voz Amplificada",
 			"reference": "M173",
 			"difficulty": "IQ/H",
 			"college": "Som",
@@ -19389,30 +19384,10 @@
 					{
 						"type": "spell_prereq",
 						"has": true,
-<<<<<<< HEAD
-						"sub_type": "college",
-						"qualifier": {
-							"compare": "is",
-							"qualifier": "corpo"
-						},
-						"quantity": {
-							"compare": "at_least",
-							"qualifier": 1
-						}
-					},
-					{
-						"type": "spell_prereq",
-						"has": true,
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "enfraquecer"
-=======
-						"sub_type": "name",
-						"qualifier": {
-							"compare": "is",
-							"qualifier": "Hair Growth"
->>>>>>> 9d7cd4e44d03dc080d377b53718deb4db7f6d00f
+							"qualifier": "Crescimento Capilar"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -19716,7 +19691,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "aguçar visão"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -20054,7 +20029,7 @@
 			"college": "Portal",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "10 seg",
 			"duration": "1 h",
@@ -20098,7 +20073,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ac3a8978-a99b-4f7f-802d-a64ea698b8ad",
-			"name": "Hide Path",
+			"name": "Ocultar Rastros",
 			"reference": "M162",
 			"difficulty": "IQ/H",
 			"college": "Plantas",
@@ -20671,7 +20646,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "controle de animais"
+							"qualifier": "controle de animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -21523,7 +21498,7 @@
 			"college": "Encantamento",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "20/0,5kg",
+			"casting_cost": "20/0,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -21618,7 +21593,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "7a3ad881-7c6f-4ffd-9b06-a2790c6de4d5",
-			"name": "Auto-Suficiência",
+			"name": "Autossuficiência",
 			"reference": "M96",
 			"difficulty": "IQ/H",
 			"college": "Ilusão e Criação",
@@ -21675,7 +21650,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aguçar visão"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -21725,7 +21700,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "auto-suficiência"
+							"qualifier": "autossuficiência"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -21758,7 +21733,7 @@
 			"name": "Entalhar",
 			"reference": "M97",
 			"difficulty": "IQ/H",
-			"college": "Ilusão e Criação ou Fazer e Quebrar",
+			"college": "Ilusão e Criação ou Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"resist": "Vontade",
@@ -21800,7 +21775,7 @@
 			},
 			"categories": [
 				"Ilusão e Criação",
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -21861,7 +21836,7 @@
 			"name": "Criação Inspirada",
 			"reference": "M115",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "5/dia",
@@ -21869,7 +21844,7 @@
 			"casting_time": "Varia",
 			"duration": "Permanente",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -22404,7 +22379,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "5dd6edcd-0d4f-47d7-a547-167b94fb52aa",
-			"name": "Aguçar Audição",
+			"name": "Audição Aguçada",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente ou Som",
@@ -22423,7 +22398,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "8847f5bc-db2d-4e73-9117-eb45c6b517bf",
-			"name": "Aguçar Paladar e Olfato",
+			"name": "Paladar e Olfato Aguçados",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente",
@@ -22441,7 +22416,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "12426549-c32d-473a-a213-aeb5d93c7c6d",
-			"name": "Aguçar Tato",
+			"name": "Tato Aguçado",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente",
@@ -22459,7 +22434,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "83124f26-437f-49fc-b354-ceefb8a678ab",
-			"name": "Aguçar Visão",
+			"name": "Visão Aguçada",
 			"reference": "M133",
 			"difficulty": "IQ/H",
 			"college": "Controle da Mente",
@@ -22480,7 +22455,7 @@
 			"name": "Nó",
 			"reference": "M117",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -22507,7 +22482,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -22773,7 +22748,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "alterar feição"
+									"qualifier": "alterar feições"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -23453,7 +23428,7 @@
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "ST ou Vontade",
-			"casting_cost": "1 por 40 kgs",
+			"casting_cost": "1 por 40 kg",
 			"maintenance_cost": "Metade",
 			"casting_time": "2 seg",
 			"duration": "1 min",
@@ -24248,7 +24223,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -24293,7 +24268,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "3e3271fb-9b1e-4223-b829-f2a99b75f812",
-			"name": "Chave Mestra",
+			"name": "Chave-Mestra",
 			"reference": "M144",
 			"difficulty": "IQ/H",
 			"college": "Deslocamento",
@@ -24522,7 +24497,7 @@
 			"college": "Encantamento",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "750/0,5kg",
+			"casting_cost": "750/0,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -25088,7 +25063,7 @@
 			"college": "Proteção e Aviso",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Chave Mestra",
+			"resist": "Chave-Mestra",
 			"casting_cost": "3",
 			"maintenance_cost": "2",
 			"casting_time": "4 seg",
@@ -25211,7 +25186,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aguçar visão"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -25546,7 +25521,7 @@
 			"name": "Cartógrafo",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Especial",
 			"casting_cost": "4",
@@ -25586,7 +25561,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -25774,7 +25749,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "d4ac3112-8f1a-4273-a19f-b5da5e46db7d",
-			"name": "Dominar Animais",
+			"name": "Dominar Animal",
 			"reference": "M30",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -25795,7 +25770,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "acalmar animais"
+							"qualifier": "acalmar animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -25856,7 +25831,7 @@
 			"college": "Alimentos",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
 			"duration": "Permanente",
@@ -26104,7 +26079,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "voz superior"
+							"qualifier": "voz amplificada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -26777,7 +26752,7 @@
 			"name": "Marca Mística",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -26817,7 +26792,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -26948,7 +26923,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -27124,7 +27099,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aguçar visão"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -27858,7 +27833,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "metamorfosear outros"
+							"qualifier": "metamorfosear outro"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -27905,7 +27880,7 @@
 				]
 			},
 			"categories": [
-				"Limitar Encantamento"
+				"Encantamento Limitante"
 			]
 		},
 		{
@@ -29145,7 +29120,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "6de661b9-7cdc-465e-9895-ccc806098013",
-			"name": "Defasar Outros",
+			"name": "Defasar Outro",
 			"reference": "M83",
 			"difficulty": "IQ/VH",
 			"college": "Portal",
@@ -29573,7 +29548,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "8c65afbb-bb43-4200-83db-e3540234ae02",
-			"name": "Forma de Planta em Outros",
+			"name": "Forma de Planta em Outro",
 			"reference": "M165",
 			"difficulty": "IQ/VH",
 			"college": "Plantas",
@@ -29692,7 +29667,7 @@
 			"college": "Plantas",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Hide Path",
+			"resist": "Ocultar Rastros",
 			"casting_cost": "3",
 			"maintenance_cost": "2",
 			"casting_time": "1 seg",
@@ -29815,7 +29790,7 @@
 			"name": "Visão das Plantas",
 			"reference": "M162",
 			"difficulty": "IQ/H",
-			"college": "Plant ou Reconhecimento",
+			"college": "Plantas ou Reconhecimento",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1 por 10 metros",
@@ -30025,7 +30000,7 @@
 					}
 				]
 			},
-			"notes": "Arremessa um objeto com ST 15 (v. B349). Custo: 1 ponto para um objeto de até 5kg (1d de dano); 2 pontos por algo de até 10kg (1d+1 de dano).",
+			"notes": "Arremessa um objeto com ST 15 (v. B349). Custo: 1 ponto para um objeto de até 5 kg (1d de dano); 2 pontos por algo de até 10 kg (1d+1 de dano).",
 			"categories": [
 				"Deslocamento"
 			]
@@ -30422,7 +30397,7 @@
 			"college": "Alimentos",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "2/0,5kg",
+			"casting_cost": "2/0,5 kg",
 			"maintenance_cost": "Metade",
 			"casting_time": "1 seg",
 			"duration": "1 semana",
@@ -30460,7 +30435,7 @@
 			"college": "Tecnológica ou Energia",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "4/0,5kg de combustível",
+			"casting_cost": "4/0,5 kg de combustível",
 			"maintenance_cost": "Metade",
 			"casting_time": "1 seg",
 			"duration": "1 semana",
@@ -30815,7 +30790,7 @@
 			"name": "Purificar a Terra",
 			"reference": "M54",
 			"difficulty": "IQ/H",
-			"college": "Plant ou Terra",
+			"college": "Plantas ou Terra",
 			"power_source": "Arcana",
 			"spell_class": "Área",
 			"casting_cost": "2",
@@ -30870,7 +30845,7 @@
 			"college": "Alimentos",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
 			"duration": "Permanente",
@@ -31121,7 +31096,7 @@
 			"college": "Encantamento",
 			"power_source": "Arcana",
 			"spell_class": "Encantamento",
-			"casting_cost": "300/0,5kg #",
+			"casting_cost": "300/0,5 kg #",
 			"maintenance_cost": "-",
 			"casting_time": "-",
 			"duration": "Permanente",
@@ -31236,7 +31211,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aguçar audição"
+							"qualifier": "audição aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -31891,7 +31866,7 @@
 			"reference": "M177",
 			"difficulty": "IQ/VH",
 			"tech_level": "",
-			"college": "Fazer e Quebrar ou Tecnológica ou Máquina",
+			"college": "Quebrar e Consertar ou Tecnológica ou Máquina",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "30",
@@ -32035,7 +32010,7 @@
 			},
 			"categories": [
 				"Máquina",
-				"Fazer e Quebrar",
+				"Quebrar e Consertar",
 				"Tecnológica"
 			]
 		},
@@ -32550,12 +32525,12 @@
 			"name": "Remendar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/5 kgs",
+			"casting_cost": "1/5 kg",
 			"maintenance_cost": "Metade",
-			"casting_time": "4 seg/5 kgs",
+			"casting_time": "4 seg/5 kg",
 			"duration": "10 min",
 			"prereqs": {
 				"type": "prereq_list",
@@ -32590,7 +32565,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -32715,7 +32690,7 @@
 			"college": "Cura ou Controle da Mente",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Madness ou Permanent Madness",
+			"resist": "Loucura ou Loucura Permanente",
 			"casting_cost": "2",
 			"maintenance_cost": "-",
 			"casting_time": "10 seg",
@@ -32798,7 +32773,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "4ed26832-b612-47f3-9ae8-bf702ed56748",
-			"name": "Aliviar Doença",
+			"name": "Aliviar Enjoo",
 			"reference": "M90",
 			"difficulty": "IQ/H",
 			"college": "Cura",
@@ -33188,12 +33163,12 @@
 			"name": "Consertar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "2/2,5 kgs",
+			"casting_cost": "2/2,5 kg",
 			"maintenance_cost": "-",
-			"casting_time": "1 seg/0,5kg",
+			"casting_time": "1 seg/0,5 kg",
 			"duration": "Permanente",
 			"prereqs": {
 				"type": "prereq_list",
@@ -33229,7 +33204,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -33253,7 +33228,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -33347,7 +33322,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "69b257f3-6bc7-45cd-a373-0888fc869c84",
-			"name": "Repelir Animais (@Animal@)",
+			"name": "Repelir Animal (@Animal@)",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -33367,7 +33342,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "Controle de Animais (@Animal@)"
+							"qualifier": "Controle de Animal (@Animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33384,7 +33359,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "90d6191b-fe2a-4084-8dc0-8071c95ee878",
-			"name": "Repelir Animais (Pássaros)",
+			"name": "Repelir Animal (Ave)",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -33404,7 +33379,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "controle de animais (@animal@)"
+							"qualifier": "controle de animal (@animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33421,7 +33396,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "59290350-f206-462c-b775-e38443957312",
-			"name": "Repelir Animais (Peixes)",
+			"name": "Repelir Animal (Peixe)",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -33441,7 +33416,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "controle de animais (@animal@)"
+							"qualifier": "controle de animal (@animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33458,7 +33433,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "652d405d-ab3a-4e9f-9be7-6f18951d6326",
-			"name": "Repelir Animais (Mamíferos)",
+			"name": "Repelir Animal (Mamífero)",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -33478,7 +33453,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "controle de animais (@animal@)"
+							"qualifier": "controle de animal (@animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33495,7 +33470,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "bacee6a2-b688-4ec7-b1c5-dda9ec6f8812",
-			"name": "Repelir Animais (Répteis)",
+			"name": "Repelir Animal (Réptil)",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -33515,7 +33490,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "controle de animais (@animal@)"
+							"qualifier": "controle de animal (@animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33532,7 +33507,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ed87d12d-91de-4d80-8d66-0063184a60e9",
-			"name": "Repelir Animais (Vermes)",
+			"name": "Repelir Animal (Animal Daninho)",
 			"reference": "M31",
 			"difficulty": "IQ/H",
 			"college": "Animais",
@@ -33552,7 +33527,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "controle de animais (@animal@)"
+							"qualifier": "controle de animal (@animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33639,7 +33614,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "afugentar espírito"
+							"qualifier": "espantar espírito"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -33659,7 +33634,7 @@
 			"name": "Remodelar",
 			"reference": "M117",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "6",
@@ -33732,7 +33707,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -33756,7 +33731,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -34377,7 +34352,7 @@
 			"name": "Restaurar",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -34417,7 +34392,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -34461,7 +34436,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "aguçar audição"
+									"qualifier": "audição aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -34626,7 +34601,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "aguçar visão"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -34682,7 +34657,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "voz superior"
+									"qualifier": "voz amplificada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -34900,7 +34875,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "apanhar projéteis"
+							"qualifier": "apanhar projétil"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -35027,7 +35002,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "Controle de Animais (@Animal@)"
+							"qualifier": "Controle de Animal (@Animal@)"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -35064,7 +35039,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "starts_with",
-							"qualifier": "controle de animais"
+							"qualifier": "controle de animal"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -35073,7 +35048,7 @@
 					}
 				]
 			},
-			"notes": "O conjurador deve conhecer a magia Controlar (Animal) para o tipo de animal que está sendo “montado”.",
+			"notes": "O operador deve conhecer a magia Controlar (Animal) para o tipo de animal que está sendo “montado”.",
 			"categories": [
 				"Animais"
 			]
@@ -35085,7 +35060,7 @@
 			"name": "Fender",
 			"reference": "M117",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/d",
@@ -35137,7 +35112,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -35162,7 +35137,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -35367,12 +35342,12 @@
 			"name": "Estragar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "2/0,5kg",
+			"casting_cost": "2/0,5 kg",
 			"maintenance_cost": "Mesmo",
-			"casting_time": "5 seg/0,5kg",
+			"casting_time": "5 seg/0,5 kg",
 			"duration": "1 min",
 			"prereqs": {
 				"type": "prereq_list",
@@ -35421,7 +35396,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -35445,7 +35420,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -37680,7 +37655,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "cdbce272-4b66-439b-a0fe-75f304a4eafe",
-			"name": "Metamorfosear Outros",
+			"name": "Metamorfosear Outro",
 			"reference": "M33",
 			"difficulty": "IQ/VH",
 			"college": "Animais",
@@ -37904,7 +37879,7 @@
 			"name": "Afiar",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/6\" of edge",
@@ -37931,7 +37906,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -37941,7 +37916,7 @@
 			"name": "Fragmentar",
 			"reference": "M116",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1-3",
@@ -37993,7 +37968,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -38018,7 +37993,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -38028,7 +38003,7 @@
 			"name": "Resistência a Choques",
 			"reference": "M118",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "3",
@@ -38068,7 +38043,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -38273,10 +38248,10 @@
 			"name": "Encolher Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "3 seg",
 			"duration": "1 h",
@@ -38300,14 +38275,14 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
 			"type": "spell",
 			"version": 1,
 			"id": "d45a212d-1731-4ea8-ad09-618f189094c6",
-			"name": "Encolher Outros",
+			"name": "Encolher Outro",
 			"reference": "M42",
 			"difficulty": "IQ/VH",
 			"college": "Controle do Corpo",
@@ -38885,7 +38860,7 @@
 			"college": "Deslocamento",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1 por 25 kgs",
+			"casting_cost": "1 por 25 kg",
 			"maintenance_cost": "Metade",
 			"casting_time": "1 seg",
 			"duration": "1 min",
@@ -39164,7 +39139,7 @@
 								"sub_type": "name",
 								"qualifier": {
 									"compare": "is",
-									"qualifier": "aguçar visão"
+									"qualifier": "visão aguçada"
 								},
 								"quantity": {
 									"compare": "at_least",
@@ -39422,7 +39397,7 @@
 			"name": "Imunidade à Sujeira",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2",
@@ -39449,7 +39424,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -39768,7 +39743,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "voz superior"
+							"qualifier": "voz amplificada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -39817,7 +39792,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aguçar audição"
+							"qualifier": "audição aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -39848,13 +39823,8 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
-<<<<<<< HEAD
 						"type": "ponto de qmd/segundo",
-						"base": "+1"
-=======
-						"type": "point burn/second",
 						"base": "1"
->>>>>>> 9d7cd4e44d03dc080d377b53718deb4db7f6d00f
 					},
 					"usage": "Área",
 					"reach": "Especial",
@@ -40184,7 +40154,7 @@
 			"college": "Metamágicas",
 			"power_source": "Arcana",
 			"spell_class": "Área",
-			"resist": "Todas as mágicas conjuradas através dele",
+			"resist": "Todas as mágicas operadas através dele",
 			"casting_cost": "3",
 			"maintenance_cost": "2",
 			"casting_time": "1 seg",
@@ -40323,7 +40293,7 @@
 			"college": "Metamágicas",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"resist": "Mágicas são conjuradas através dele",
+			"resist": "Mágicas são operadas através dele",
 			"casting_cost": "2/1 metro de muralha",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "1 seg",
@@ -40695,7 +40665,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "alterar feição"
+							"qualifier": "alterar feições"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -40851,7 +40821,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "3b5252b2-d173-4c5d-a3bc-08ed0348ab53",
-			"name": "Roubar Poder",
+			"name": "Roubar Força",
 			"reference": "M158",
 			"difficulty": "IQ/VH",
 			"college": "Necromancia",
@@ -41581,7 +41551,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "atravessar terra (geolocomoção)"
+							"qualifier": "atravessar terra"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -41638,13 +41608,13 @@
 			"name": "Endurecer",
 			"reference": "M117",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Especial",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Metade",
-			"casting_time": "2 seg/0,5kg",
+			"casting_time": "2 seg/0,5 kg",
 			"duration": "10 min",
 			"prereqs": {
 				"type": "prereq_list",
@@ -41666,7 +41636,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -44433,7 +44403,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "ca05b91a-015f-4eeb-9d23-07c5cfeb80b5",
-			"name": "Teleportar Outros",
+			"name": "Teleportar Outro",
 			"reference": "M147",
 			"difficulty": "IQ/VH",
 			"college": "Portal ou Deslocamento",
@@ -45210,7 +45180,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "329cd498-3f28-401c-aef1-c74a4707e36f",
-			"name": "Transportar Outros no Tempo",
+			"name": "Transportar Outro no Tempo",
 			"reference": "M81",
 			"difficulty": "IQ/VH",
 			"college": "Portal",
@@ -45285,7 +45255,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "972f27f4-bb62-4fd9-966e-d95ed2db5a8b",
-			"name": "Translocação no Tempo de Outros",
+			"name": "Translocar Outro no Tempo",
 			"reference": "M81",
 			"difficulty": "IQ/H",
 			"college": "Portal",
@@ -45305,7 +45275,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "viagem no tempo"
+							"qualifier": "translocação no tempo"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -45411,7 +45381,7 @@
 			"name": "Fortalecer",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "1/pt de RD",
@@ -45438,7 +45408,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -45600,11 +45570,11 @@
 			"name": "Transformar Objeto",
 			"reference": "M120",
 			"difficulty": "IQ/VH",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "Especial",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "Mesmo",
 			"casting_time": "custo=seg",
 			"duration": "1 h",
@@ -45655,7 +45625,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -45679,7 +45649,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -45720,7 +45690,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "metamorfosear outros"
+							"qualifier": "metamorfosear outro"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -45796,7 +45766,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "transformar outros"
+							"qualifier": "transformar outro"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -45842,7 +45812,7 @@
 			"name": "Transparência",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "4",
@@ -45882,7 +45852,7 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -45977,7 +45947,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "91345012-d7f6-4238-8628-acab7643441e",
-			"name": "Afugentar Espírito",
+			"name": "Espantar Espírito",
 			"reference": "M151",
 			"difficulty": "IQ/H",
 			"college": "Necromancia",
@@ -46630,7 +46600,7 @@
 			"type": "spell",
 			"version": 1,
 			"id": "7aabf43e-4393-41e3-a5d0-49bac2b1e7e0",
-			"name": "Atravessar Terra (Geolocomoção)",
+			"name": "Atravessar Terra",
 			"reference": "M52",
 			"difficulty": "IQ/H",
 			"college": "Terra",
@@ -46978,13 +46948,13 @@
 			"type": "spell",
 			"version": 1,
 			"id": "43216193-2782-40ab-8475-81f518fe15fd",
-			"name": "Caminhar na Parede",
+			"name": "Caminhar nas Paredes",
 			"reference": "M144",
 			"difficulty": "IQ/H",
 			"college": "Deslocamento",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
-			"casting_cost": "1 por 25 kgs",
+			"casting_cost": "1 por 25 kg",
 			"maintenance_cost": "Metade",
 			"casting_time": "1 seg",
 			"duration": "1 min",
@@ -47384,7 +47354,7 @@
 			"name": "Enfraquecer",
 			"reference": "M116",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"casting_cost": "2-6",
@@ -47423,7 +47393,7 @@
 			},
 			"notes": "Afeta apenas objetos inanimados",
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
@@ -47561,7 +47531,7 @@
 			"name": "Fusão com Arma",
 			"reference": "M119",
 			"difficulty": "IQ/H",
-			"college": "Fazer e Quebrar",
+			"college": "Quebrar e Consertar",
 			"power_source": "Arcana",
 			"spell_class": "Comum",
 			"resist": "HT ou perícia para armas mágicas.",
@@ -47579,7 +47549,7 @@
 						"sub_type": "college",
 						"qualifier": {
 							"compare": "contains",
-							"qualifier": "Fazer e Quebrar"
+							"qualifier": "Quebrar e Consertar"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -47629,7 +47599,7 @@
 								},
 								"notes": {
 									"compare": "contains",
-									"qualifier": "uma escola (fazer e quebrar)"
+									"qualifier": "uma escola (quebrar e consertar)"
 								}
 							},
 							{
@@ -47653,14 +47623,14 @@
 				]
 			},
 			"categories": [
-				"Fazer e Quebrar"
+				"Quebrar e Consertar"
 			]
 		},
 		{
 			"type": "spell",
 			"version": 1,
 			"id": "b78d2526-d395-4f89-9fbf-586935714798",
-			"name": "Espírito da Arma",
+			"name": "Arma Espiritual",
 			"reference": "M64",
 			"difficulty": "IQ/VH",
 			"college": "Encantamento",
@@ -47943,7 +47913,7 @@
 			"college": "Deslocamento",
 			"power_source": "Arcana",
 			"spell_class": "Projétil",
-			"casting_cost": "1/0,5kg",
+			"casting_cost": "1/0,5 kg",
 			"maintenance_cost": "-",
 			"casting_time": "1 seg",
 			"duration": "Instantânea",
@@ -48318,7 +48288,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "aguçar visão"
+							"qualifier": "visão aguçada"
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -48432,7 +48402,7 @@
 						"sub_type": "name",
 						"qualifier": {
 							"compare": "is",
-							"qualifier": "voz superior"
+							"qualifier": "voz amplificada"
 						},
 						"quantity": {
 							"compare": "at_least",
