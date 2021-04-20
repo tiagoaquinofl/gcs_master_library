@@ -308,7 +308,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "Shoot Javelin",
@@ -355,7 +355,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Swung",
@@ -567,7 +567,7 @@
 			},
 			"notes": "5 gal liquid, DR 1, HP 11",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -586,7 +586,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "Swing - One Handed",
@@ -634,7 +634,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Thrust - One Handed",
@@ -682,7 +682,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "Swing - Two Handed",
@@ -715,7 +715,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "10†",
 					"usage": "Thrust - Two Handed",
@@ -1114,7 +1114,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "Swung",
@@ -1147,7 +1147,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "Thrust",
@@ -1180,7 +1180,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "Sword Swing",
@@ -1213,7 +1213,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9†",
 					"usage": "Sword Thrust",
@@ -1293,7 +1293,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "7",
 					"usage": "Swung",
@@ -1411,7 +1411,7 @@
 			},
 			"notes": "1 qt liquid, DR 1, HP 4",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -1439,7 +1439,7 @@
 			},
 			"notes": "1 pt liquid, DR 1, HP 2",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": false,
 			"children": [
@@ -1552,7 +1552,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -1572,7 +1573,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -1592,7 +1594,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -1612,7 +1615,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -1637,7 +1641,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -1657,7 +1662,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -1677,7 +1683,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -1697,7 +1704,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swing",
@@ -1745,7 +1752,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -1817,7 +1824,7 @@
 			},
 			"notes": "1 gal liquid, DR 1, HP 6",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -2298,7 +2305,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -2350,7 +2357,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -2522,7 +2529,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -2574,7 +2581,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -2641,7 +2648,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11‡",
 					"usage": "Sharp",
@@ -2679,7 +2686,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11‡",
 					"usage": "Blunt",
@@ -2757,7 +2764,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "10†",
 					"usage": "Shoot",
@@ -2798,7 +2805,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+5"
+						"base": "5"
 					},
 					"strength": "8†",
 					"usage": "Fire Bolt",
@@ -2880,7 +2887,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "7†",
 					"usage": "Fire Bolt",
@@ -2978,7 +2985,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -3012,7 +3019,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrown",
@@ -3117,7 +3124,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Thrust",
@@ -3584,7 +3591,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "Swung",
@@ -3622,7 +3629,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Thrust",
@@ -3675,7 +3682,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "12†",
 					"usage": "Swung",
@@ -3713,7 +3720,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11†",
 					"usage": "Thrust",
@@ -3751,7 +3758,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "Swing",
@@ -3885,7 +3892,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -3970,7 +3977,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Broadsword Thrust",
@@ -4089,7 +4096,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -4109,7 +4117,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -4129,7 +4138,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -4149,7 +4159,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -4174,7 +4185,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -4194,7 +4206,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -4214,7 +4227,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -4234,7 +4248,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -4282,7 +4296,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -4369,7 +4383,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -4389,7 +4404,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -4409,7 +4425,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -4429,7 +4446,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -4454,7 +4472,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -4474,7 +4493,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -4494,7 +4514,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -4553,7 +4574,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -4740,7 +4761,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "13†",
 					"usage": "Swung",
@@ -4912,7 +4933,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11‡",
 					"usage": "Swung",
@@ -4950,7 +4971,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11†",
 					"usage": "Thrust",
@@ -5138,7 +5159,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "12‡",
 					"usage": "Swung",
@@ -5206,7 +5227,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "Swing",
@@ -5239,7 +5260,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "Thrust",
@@ -5301,7 +5322,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+5"
+						"base": "5"
 					},
 					"strength": "13‡",
 					"usage": "Swung",
@@ -5339,7 +5360,7 @@
 					"damage": {
 						"type": "imp (may stick)",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "13‡",
 					"usage": "Swung Hook",
@@ -5377,7 +5398,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "Thrust",
@@ -5444,7 +5465,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+5"
+						"base": "5"
 					},
 					"strength": "11",
 					"accuracy": "2",
@@ -5645,7 +5666,7 @@
 			},
 			"notes": "Worn on Shoulder. Holds 10 lbs",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -5797,7 +5818,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -5817,7 +5839,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -5837,7 +5860,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -5857,7 +5881,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -5882,7 +5907,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -5902,7 +5928,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -5922,7 +5949,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -5967,7 +5995,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -5988,7 +6017,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -6009,7 +6039,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -6030,7 +6061,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6056,7 +6088,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6077,7 +6110,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6098,7 +6132,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -6141,7 +6176,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6161,7 +6197,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -6181,7 +6218,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -6201,7 +6239,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6226,7 +6265,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6246,7 +6286,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6266,7 +6307,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -6309,7 +6351,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6329,7 +6372,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -6349,7 +6393,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -6369,7 +6414,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6394,7 +6440,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6414,7 +6461,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6434,7 +6482,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -6477,7 +6526,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6497,7 +6547,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -6517,7 +6568,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -6537,7 +6589,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6562,7 +6615,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -6582,7 +6636,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -6602,7 +6657,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -6622,7 +6678,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "8†",
 					"usage": "Shoot",
@@ -6678,7 +6734,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "11†",
 					"usage": "Thrust",
@@ -6711,7 +6767,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11†",
 					"usage": "Thrust - tip slash",
@@ -6912,7 +6968,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+6"
+						"base": "6"
 					},
 					"strength": "16‡",
 					"usage": "Swing",
@@ -7029,7 +7085,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "Thrust",
@@ -7062,7 +7118,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "Thrown",
@@ -7209,7 +7265,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6†",
 					"usage": "Staff Swing",
@@ -7242,7 +7298,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6†",
 					"usage": "Staff Thrust",
@@ -7275,7 +7331,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8†",
 					"usage": "Sword Swing",
@@ -7308,7 +7364,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8†",
 					"usage": "Sword Thrust",
@@ -7608,7 +7664,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "Swing - One Handed",
@@ -7656,7 +7712,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11",
 					"usage": "Thrust - One Handed",
@@ -7704,7 +7760,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "Swing - Two Handed",
@@ -7737,7 +7793,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10†",
 					"usage": "Thrust - Two Handed",
@@ -7818,7 +7874,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "Thrust",
@@ -7874,7 +7930,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Swung",
@@ -8003,7 +8059,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Swing",
@@ -8041,7 +8097,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Thrust",
@@ -8160,7 +8216,7 @@
 			},
 			"notes": "400 lb, brackets for 2 poles, DR 2, HP 14",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -8179,7 +8235,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Swing",
@@ -8348,7 +8404,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "8",
 					"usage": "Thrust",
@@ -8743,7 +8799,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"usage": "Shield Bash",
@@ -9135,7 +9191,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9155,7 +9212,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -9175,7 +9233,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -9195,7 +9254,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -9220,7 +9280,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -9240,7 +9301,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9260,7 +9322,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -9280,7 +9343,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swing",
@@ -9328,7 +9391,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -9434,7 +9497,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Thrust",
@@ -9517,7 +9580,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9538,7 +9602,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -9559,7 +9624,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -9580,7 +9646,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -9606,7 +9673,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -9627,7 +9695,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9648,7 +9717,8 @@
 					],
 					"notes": "1 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -9668,7 +9738,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Thrust",
@@ -9751,7 +9821,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9772,7 +9843,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -9793,7 +9865,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -9814,7 +9887,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -9840,7 +9914,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -9861,7 +9936,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9882,7 +9958,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -9925,7 +10002,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -9945,7 +10023,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -9965,7 +10044,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -9985,7 +10065,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -10010,7 +10091,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -10030,7 +10112,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -10050,7 +10133,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -10183,7 +10267,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11‡",
 					"usage": "Swung",
@@ -10409,7 +10493,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -10442,7 +10526,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Thrust",
@@ -10490,7 +10574,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "Swung",
@@ -10523,7 +10607,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10†",
 					"usage": "Thrust",
@@ -10571,7 +10655,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11†",
 					"usage": "Shoot",
@@ -10612,7 +10696,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swing - One Handed",
@@ -10660,7 +10744,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrust - One Handed",
@@ -10708,7 +10792,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9†",
 					"usage": "Swing - Two Handed",
@@ -10741,7 +10825,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Thrust - Two Handed",
@@ -10789,7 +10873,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"usage": "Swung",
@@ -10822,7 +10906,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"accuracy": "1",
@@ -10863,7 +10947,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -11079,7 +11163,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Swing",
@@ -11407,7 +11491,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -11428,7 +11513,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -11449,7 +11535,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -11470,7 +11557,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -11496,7 +11584,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -11517,7 +11606,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -11538,7 +11628,8 @@
 					],
 					"notes": "2 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -11794,7 +11885,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -11828,7 +11919,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrown",
@@ -11923,7 +12014,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+5"
+						"base": "5"
 					},
 					"strength": "13‡",
 					"usage": "Swung",
@@ -12036,7 +12127,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "-",
 					"usage": "Shield Bash",
@@ -12162,7 +12253,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "0",
 					"usage": "Shield Bash",
@@ -12337,7 +12428,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9†",
 					"usage": "Swing Spade",
@@ -12375,7 +12466,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "Thrust",
@@ -12413,7 +12504,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "Swing",
@@ -12495,7 +12586,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12",
 					"usage": "Swung",
@@ -12571,7 +12662,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "Polearm Swing",
@@ -12609,7 +12700,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Polearm Thrust",
@@ -12647,7 +12738,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Sword Swing",
@@ -12680,7 +12771,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Sword Thrust",
@@ -12779,7 +12870,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "7",
 					"usage": "Swung",
@@ -12999,7 +13090,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -13062,7 +13153,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "Thrust",
@@ -13110,7 +13201,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7",
 					"usage": "Fire Bolt",
@@ -13175,7 +13266,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -13195,7 +13287,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -13215,7 +13308,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -13235,7 +13329,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -13260,7 +13355,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -13280,7 +13376,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -13300,7 +13397,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -13359,7 +13457,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "12†",
 					"usage": "Axe Swing",
@@ -13397,7 +13495,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11†",
 					"usage": "Spike Thrust",
@@ -13435,7 +13533,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "12†",
 					"usage": "Spike Swing",
@@ -13572,7 +13670,7 @@
 					"damage": {
 						"type": "pi",
 						"st": "thr",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "7†",
 					"usage": "Fire Pellet",
@@ -13640,7 +13738,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "Swung",
@@ -13673,7 +13771,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "Thrust",
@@ -13706,7 +13804,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9†",
 					"usage": "Sword Swing",
@@ -13739,7 +13837,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9†",
 					"usage": "Sword Thrust",
@@ -13815,7 +13913,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "9",
 					"usage": "Thrust",
@@ -13904,7 +14002,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10†",
 					"usage": "Shoot",
@@ -14025,7 +14123,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Thrust",
@@ -14101,7 +14199,7 @@
 			},
 			"notes": "40 lb, DR 1, HP 5",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -14409,7 +14507,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -14430,7 +14529,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -14451,7 +14551,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -14472,7 +14573,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -14498,7 +14600,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -14519,7 +14622,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -14540,7 +14644,8 @@
 					],
 					"notes": "3 DR versus crushing",
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -14849,7 +14954,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "11‡",
 					"usage": "Swung",
@@ -14887,7 +14992,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "11‡",
 					"usage": "Thrust",
@@ -14964,7 +15069,8 @@
 						}
 					],
 					"categories": [
-						"Body Armor"
+						"Body Armor",
+						"Armor"
 					]
 				},
 				{
@@ -14984,7 +15090,8 @@
 						}
 					],
 					"categories": [
-						"Footwear"
+						"Footwear",
+						"Armor"
 					]
 				},
 				{
@@ -15004,7 +15111,8 @@
 						}
 					],
 					"categories": [
-						"Gloves"
+						"Gloves",
+						"Armor"
 					]
 				},
 				{
@@ -15024,7 +15132,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -15049,7 +15158,8 @@
 						}
 					],
 					"categories": [
-						"Headgear"
+						"Headgear",
+						"Armor"
 					]
 				},
 				{
@@ -15069,7 +15179,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				},
 				{
@@ -15089,7 +15200,8 @@
 						}
 					],
 					"categories": [
-						"Limb Armor"
+						"Limb Armor",
+						"Armor"
 					]
 				}
 			]
@@ -15365,7 +15477,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "6",
 					"usage": "Thrust",
@@ -15613,7 +15725,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "8",
 					"usage": "Thrust",
@@ -15975,7 +16087,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -16187,7 +16299,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "-",
 					"usage": "Shield Bash",
@@ -16257,7 +16369,7 @@
 			},
 			"notes": "100 lb, brackets for 2 poles, DR 1, HP 10",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -16628,7 +16740,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Swing",
@@ -16661,7 +16773,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Thrown",
@@ -16769,7 +16881,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -16802,7 +16914,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrown",
@@ -17002,7 +17114,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "5",
 					"usage": "Thrust",
@@ -17077,7 +17189,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "9",
 					"usage": "Thrust",
@@ -17110,7 +17222,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9†",
 					"usage": "Thrust",
@@ -17143,7 +17255,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9",
 					"usage": "Thrown",
@@ -17607,7 +17719,7 @@
 					"damage": {
 						"type": "pi",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "7†",
 					"accuracy": "1",
@@ -17818,7 +17930,7 @@
 			},
 			"notes": "Holds 40 lbs of coins or other small items; DR12, HP10",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -17949,7 +18061,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Swung",
@@ -17982,7 +18094,7 @@
 					"damage": {
 						"type": "cut",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "11",
 					"usage": "Thrown",
@@ -18297,7 +18409,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+3",
+						"base": "3",
 						"armor_divisor": 0.5
 					},
 					"strength": "11",
@@ -18331,7 +18443,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+4",
+						"base": "4",
 						"armor_divisor": 0.5
 					},
 					"strength": "10†",
@@ -18395,7 +18507,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "10",
 					"usage": "Swung",
@@ -18443,7 +18555,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+1"
+						"base": "1"
 					},
 					"strength": "10",
 					"usage": "Thrust",
@@ -18544,7 +18656,7 @@
 			},
 			"notes": "½ pt, DR 1, HP 1, resists corrosion",
 			"categories": [
-				"Containers"
+				"Container"
 			],
 			"open": true
 		},
@@ -18604,7 +18716,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+4"
+						"base": "4"
 					},
 					"strength": "12‡",
 					"usage": "Swung",
@@ -18845,7 +18957,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "sw",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "Swung",
@@ -18878,7 +18990,7 @@
 					"damage": {
 						"type": "cr",
 						"st": "thr",
-						"base": "+2"
+						"base": "2"
 					},
 					"strength": "7†",
 					"usage": "Thrust",
@@ -19164,7 +19276,7 @@
 					"damage": {
 						"type": "imp",
 						"st": "sw",
-						"base": "+3"
+						"base": "3"
 					},
 					"strength": "9",
 					"usage": "Shoot Spear",

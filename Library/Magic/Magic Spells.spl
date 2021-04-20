@@ -16206,8 +16206,13 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
+<<<<<<< HEAD
 						"type": "ponto de qmd/ponto",
 						"base": "+1"
+=======
+						"type": "point burn/point",
+						"base": "1"
+>>>>>>> 9d7cd4e44d03dc080d377b53718deb4db7f6d00f
 					},
 					"usage": "Área",
 					"reach": "Especial",
@@ -19384,6 +19389,7 @@
 					{
 						"type": "spell_prereq",
 						"has": true,
+<<<<<<< HEAD
 						"sub_type": "college",
 						"qualifier": {
 							"compare": "is",
@@ -19401,6 +19407,12 @@
 						"qualifier": {
 							"compare": "is",
 							"qualifier": "enfraquecer"
+=======
+						"sub_type": "name",
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Hair Growth"
+>>>>>>> 9d7cd4e44d03dc080d377b53718deb4db7f6d00f
 						},
 						"quantity": {
 							"compare": "at_least",
@@ -39836,8 +39848,13 @@
 				{
 					"type": "melee_weapon",
 					"damage": {
+<<<<<<< HEAD
 						"type": "ponto de qmd/segundo",
 						"base": "+1"
+=======
+						"type": "point burn/second",
+						"base": "1"
+>>>>>>> 9d7cd4e44d03dc080d377b53718deb4db7f6d00f
 					},
 					"usage": "Área",
 					"reach": "Especial",
